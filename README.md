@@ -28,12 +28,7 @@ causal relationships in systems with multiple variables, dependencies at differe
 
 After cloning the repository, you can set up the environment needed to run the scripts successfully by following the instructions below. Depending on whether you are using `pip` or `conda`, choose the appropriate method to install the required packages.
 
-If you are using `pip`, you can install all the necessary dependencies by running the following command in your terminal:
-```sh
-pip install -r requirements.txt
-```
-
-For those using `conda`, you can create an environment with all the required packages by running:
+You can create an environment with all the required packages by running:
 ```sh
 conda env create -f environment.yml
 ```
