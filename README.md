@@ -34,7 +34,7 @@ This command creates a new conda environment and installs the packages as specif
 ```sh
 conda activate surd
 ```
-Should you wish to use the transport map for estimating probability density functions (refer to [this tutorial](https://github.com/MIT-Computational-Turbulence-Group/SURD/blob/main/examples/E07_transport_map.ipynb)), the `mpart` library is required. Installation can be executed via the following `conda` command:
+Should you wish to use the transport map for estimating probability density functions (refer to this [tutorial](https://github.com/MIT-Computational-Turbulence-Group/SURD/blob/main/examples/E07_transport_map.ipynb)), the `mpart` library is required. Installation can be executed via the following `conda` command:
 ```sh
 conda install -c conda-forge mpart
 ```
