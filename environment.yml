@@ -25,7 +25,7 @@ dependencies:
   - libsqlite
   - libzlib
   - matplotlib-inline
-  - mpart
+  - mpart # [not osx-arm64]
   - ncurses
   - nest-asyncio
   - openssl
@@ -66,6 +66,7 @@ dependencies:
       - importlib-resources
       - kiwisolver
       - matplotlib
+      - mpart [platform startswith osx-arm64]
       - numpy
       - pillow
       - pymp-pypi
