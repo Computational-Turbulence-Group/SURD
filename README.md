@@ -34,6 +34,15 @@ This command creates a new conda environment and installs the packages as specif
 ```sh
 conda activate surd
 ```
+Should you wish to use the transport map for estimating probability density functions (refer to [this tutorial](https://github.com/MIT-Computational-Turbulence-Group/SURD/blob/main/examples/E07_transport_map.ipynb), the `mpart` library is required. Installation can be executed via the following `conda command:
+```sh
+conda install -c conda-forge mpart
+```
+For users operating on the `osx-arm64` platform, please note that the `mpart` package is not available on `conda-forge`. As an alternative, the library should be installed using `pip`:
+```sh
+pip install mpart
+```
+For comprehensive details regarding the installation and further information about the library, please visit the [MParT documentation](https://measuretransport.github.io/MParT/).
 
 ## Tutorials
 SURD has been applied in a large collection of scenarios that have proven challenging for causal inference and demonstrate its application in analyzing the energy cascade in isotropic turbulence. For examples, consult the documentation or see the Jupyter notebooks in the examples folder.
