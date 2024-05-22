@@ -41,7 +41,7 @@ dependencies:
   - ptyprocess
   - pure_eval
   - pygments
-  - python=3.10.13
+  - python=3.10.*
   - python_abi
   - pyzmq
   - readline
