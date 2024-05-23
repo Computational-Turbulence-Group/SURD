@@ -24,13 +24,17 @@ causal relationships in systems with multiple variables, dependencies at differe
 
 - **Dependence on data availability**: The accuracy of the method is contingent on the availability of sufficient data, as it involves estimating probability distributions in high-dimensional spaces.
 
+## System requirements
+
+SURD is designed to operate efficiently on standard computing systems. However, the computational demands increase with the complexity of the probability density functions being estimated. To ensure optimal performance, we recommend a minimum of 16 GB of RAM and a quad-core processor with a clock speed of at least 3.3 GHz per core. The performance metrics provided in this repository are based on tests conducted on macOS with an ARM64 architecture and 16 GB of RAM, and on Linux systems running Red Hat version 8.8-0.8. These configurations have demonstrated sufficient performance for the operations utilized by SURD. Users should consider equivalent or superior specifications to achieve similar performance.
+
 ## Getting started
 
 After cloning the repository, you can set up the environment needed to run the scripts successfully by following the instructions below. You can create an environment using `conda` with all the required packages by running:
 ```sh
 conda env create -f environment.yml
 ```
-This command creates a new conda environment and installs the packages as specified in the `environment.yml` file. After installing the dependencies, make sure to activate the newly created conda environment with:
+This command creates a new conda environment and installs the packages as specified in the `environment.yml` file in about 50 seconds. After installing the dependencies, make sure to activate the newly created conda environment with:
 ```sh
 conda activate surd
 ```
