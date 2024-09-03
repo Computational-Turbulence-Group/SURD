@@ -55,7 +55,6 @@ SURD has been applied in a large collection of scenarios that have proven challe
 
 If you use SURD in your research or software, please cite the following paper:
 
-**Paper**:
 ```bibtex
 @article{surd,
   title={Decomposing causality into its synergistic, unique, and redundant components},
@@ -63,6 +62,7 @@ If you use SURD in your research or software, please cite the following paper:
   journal={arXiv preprint arXiv:2405.12411},
   year={2024}
 }
+```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
