@@ -51,6 +51,19 @@ For comprehensive details regarding the installation and further information abo
 ## Tutorials
 SURD has been applied in a large collection of scenarios that have proven challenging for causal inference and demonstrate its application in analyzing the energy cascade in isotropic turbulence. For examples, consult the documentation or see the Jupyter notebooks in the examples folder.
 
+## Citation
+
+If you use SURD in your research or software, please cite the following paper:
+
+**Paper**:
+```bibtex
+@article{surd,
+  title={Decomposing causality into its synergistic, unique, and redundant components},
+  author={Mart{\'\i}nez-S{\'a}nchez, {\'A}lvaro and Arranz, Gonzalo and Lozano-Dur{\'a}n, Adri{\'a}n},
+  journal={arXiv preprint arXiv:2405.12411},
+  year={2024}
+}
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
