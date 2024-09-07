@@ -72,3 +72,4 @@ dependencies:
       - python-dateutil
       - scipy
       - zipp
+      - tqdm
