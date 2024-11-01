@@ -57,10 +57,17 @@ If you use SURD in your research or software, please cite the following paper:
 
 ```bibtex
 @article{surd,
-  title={Decomposing causality into its synergistic, unique, and redundant components},
-  author={Mart{\'\i}nez-S{\'a}nchez, {\'A}lvaro and Arranz, Gonzalo and Lozano-Dur{\'a}n, Adri{\'a}n},
-  journal={arXiv preprint arXiv:2405.12411},
-  year={2024}
+author={Mart{\'\i}nez-S{\'a}nchez, {\'A}lvaro and Arranz, Gonzalo and Lozano-Dur{\'a}n, Adri{\'a}n},
+title={Decomposing causality into its synergistic, unique, and redundant components},
+journal={Nature Communications},
+year={2024},
+month={Nov},
+day={01},
+volume={15},
+number={1},
+pages={9296},
+issn={2041-1723},
+doi={10.1038/s41467-024-53373-4}
 }
 ```
 
