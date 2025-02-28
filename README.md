@@ -8,7 +8,8 @@ available information from past observations. It further decomposes the causal i
 investigations. SURD also identifies the amount of causality that remains unaccounted for due to unobserved variables. The approach can be used to detect
 causal relationships in systems with multiple variables, dependencies at different time lags, and instantaneous links.
 
-<img width="1209" alt="Screenshot 2024-02-21 at 5 22 41 PM" src="https://github.mit.edu/storage/user/27189/files/77ed0e78-e988-406c-b977-0e927661b168">
+<!---<img width="1209" alt="Screenshot 2024-02-21 at 5 22 41 PM" src="https://github.mit.edu/storage/user/27189/files/77ed0e78-e988-406c-b977-0e927661b168">--->
+![github_diagram_2](https://github.com/user-attachments/assets/937fa18d-1179-4cfe-ae5a-e262582614a0)
 
 ## Features
 
